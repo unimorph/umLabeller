@@ -17,5 +17,10 @@ from umLabeller import UniMorphLabeller
 
 uml = umLabeller()
 print(uml.auto_classify('stepstones',['Ġsteps','tones']))
+```
 
+Output:
+
+```
+alien
 ```
