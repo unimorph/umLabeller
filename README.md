@@ -18,7 +18,7 @@ pip install .
 ```
 from umLabeller import UniMorphLabeller
 
-uml = umLabeller()
+uml = UniMorphLabeller()
 print(uml.auto_classify('stepstones',['Ġsteps','tones']))
 ```
 
