@@ -2,7 +2,7 @@
 
 umLabeller is an inspection tool for characterizing the semantic compositionality of subword tokenization,
 based on the morphological information retrieved from UniMorph. 
-Given a word _w_ and its subword tokenization, _s_ = (_s1_, ..., _sn_) | ∀_i_ _si_ ∈ V, umLabeller assigns one of four categories: _vocab, alien, morph, or n/a_:
+Given a word _w_ and its subword tokenization, _s_ = (_s1_, ..., _sn_) | ∀i _si_ ∈ V, umLabeller assigns one of four categories: _vocab, alien, morph, or n/a_:
 
 - **vocabulary subword**: the given word _w_ is a subword in the vocabulary as _w_ ∈ _V_;
 - **alien composition**: the given subword sequence _s_ is an alien subword composition if we find at least two subwords _si_ and _sj_ in s that are not meaningful with respect to the meaning of _w_;
