@@ -1,7 +1,7 @@
 # umLabeller
 
 umLabeller is an inspection tool for characterizing the semantic compositionality of subword tokenization,
-based on the morphological information retrieved from UniMorph.
+based on the morphological information retrieved from UniMorph. It can classify over half a million English words.
 
 ## Installation
 
