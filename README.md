@@ -5,13 +5,21 @@ based on the morphological information retrieved from UniMorph.
 
 ## Installation
 
-To install from source, please use the following commands:
+To install from the source, please use the following commands:
 
 ```
-git clone https://github.com/unimorph/umLabeller.git
-cd umLabeller
-pip install .
+!git clone https://github.com/unimorph/umLabeller.git
 ```
+
+```
+cd umLabeller
+```
+
+```
+!pip install .
+```
+
+Note: The instructions above have been tested on Google Colab.
 
 ## Usage
 
