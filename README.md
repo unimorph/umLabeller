@@ -11,6 +11,18 @@ Given a word _w_ and its subword tokenization, _s_ = (_s_<sub>1</sub>, ..., _s_<
 
 umLabeller can characterize over half a million English words and is compatible with most modern tokenizers.
 
+## Examples
+
+|   input word   |   subword tokenization  |   output label  |
+|----------------|-------------------------|-----------------|
+|   jogging      |   _j ogging             |   alien         |
+|   neutralised  |   _neutral ised         |   morph         |
+|   stepstones   |   _steps tones          |   alien         |
+|   swappiness   |   _sw appiness          |   alien         |
+|   swappiness   |   _swap pi ness         |   morph         |
+|   jogging      |   _jogging              |   vocab         |
+
+
 ## Installation
 
 To install from the source, please use the following commands:
@@ -43,16 +55,6 @@ Output:
 ```
 alien
 ```
-## Examples
-
-|   input word   |   subword tokenization  |   output label  |
-|----------------|-------------------------|-----------------|
-|   jogging      |   _j ogging             |   alien         |
-|   neutralised  |   _neutral ised         |   morph         |
-|   stepstones   |   _steps tones          |   alien         |
-|   swappiness   |   _sw appiness          |   alien         |
-|   swappiness   |   _swap pi ness         |   morph         |
-|   jogging      |   _jogging              |   vocab         |
 
 ## References
 More details can be read in the following article:
