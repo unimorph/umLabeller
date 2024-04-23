@@ -38,4 +38,4 @@ alien
 ## References
 More details can be read in the following article:
 
-Khuyagbaatar Batsuren, Ekaterina Vylomova, Verna Dankers, Tsetsuukhei Delgerbaatar, Omri Uzan, Yuval Pinter, Gábor Bella – Evaluating Subword Tokenization: Alien Subword Composition and OOV Generalization Challenge. [https://aclweb.org/anthology/papers/P/P19/P19-1302/](https://arxiv.org/abs/2404.13292)
+Khuyagbaatar Batsuren, Ekaterina Vylomova, Verna Dankers, Tsetsuukhei Delgerbaatar, Omri Uzan, Yuval Pinter, Gábor Bella – Evaluating Subword Tokenization: Alien Subword Composition and OOV Generalization Challenge. [https://arxiv.org/abs/2404.13292](https://arxiv.org/abs/2404.13292)
