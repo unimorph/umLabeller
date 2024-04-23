@@ -104,8 +104,8 @@ class UniMorphLabeller:
         return data
 
     def initiate_labeller_data(self):
-      #data_file_path = os.path.join(os.path.dirname(__file__), 'data', 'eng.word.full.230613.r7.tsv')
-      data_file_path = pkg_resources.resource_filename('umLabeller', 'data/eng.word.full.230613.r7.tsv')
+      data_file_path = os.path.join(os.path.dirname(__file__), 'data', 'eng.word.full.230613.r7.tsv')
+      #data_file_path = pkg_resources.resource_filename('umLabeller', 'data/eng.word.full.230613.r7.tsv')
       #data_file_path = pkg_resources.resource_filename(__name__, 'data/eng.word.full.230613.r7.tsv')
       segments = self.read_unimorph_csv_normalized(data_file_path)
       #merges = read_unimorph_merges(path)
