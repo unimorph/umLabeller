@@ -33,7 +33,7 @@ alien
 |----------------|-------------------------|-----------------|
 |   jogging      |   _j ogging             |   alien         |
 |   neutralised  |   _neutral ised         |   morph         |
-|   stepstones   |   _steps _tones         |   alien         |
+|   stepstones   |   _steps tones          |   alien         |
 |   swappiness   |   _sw appiness          |   alien         |
 |   swappiness   |   _swap pi ness         |   morph         |
 |   jogging      |   _jogging              |   vocab         |
