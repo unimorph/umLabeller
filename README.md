@@ -24,3 +24,14 @@ Output:
 ```
 alien
 ```
+## Examples
+
+|   input word   |   subword tokenization  |   output label  |
+|----------------|-------------------------|-----------------|
+|   jogging      |   _j ogging             |   alien         |
+|   neutralised  |   _neutral ised         |   morph         |
+|   stepstones   |   _steps _tones         |   alien         |
+|   swappiness   |   _sw appiness          |   alien         |
+|   swappiness   |   _swap pi ness         |   morph         |
+|   jogging      |   _jogging              |   vocab         |
+
