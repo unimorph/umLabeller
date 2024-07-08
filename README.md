@@ -56,6 +56,9 @@ Output:
 alien
 ```
 
+## License: 
+https://creativecommons.org/licenses/by-sa/3.0/
+
 ## References
 More details can be read in the following article:
 
